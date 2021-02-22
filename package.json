@@ -26,7 +26,34 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "eslint:recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/react",
+      "plugin:react/recommended",
+      "plugin:promise/recommended",
+      "plugin:jest/recommended",
+      "plugin:jest/style",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [
+            ".ts",
+            ".tsx",
+            ".js",
+            ".jsx"
+          ]
+        }
+      }
+    },
+    "ignorePatterns": [
+      "public",
+      "build",
+      "node_modules"
     ]
   },
   "browserslist": {
@@ -40,5 +67,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "prettier": "^2.2.1"
   }
 }
