@@ -8,7 +8,10 @@ function App(): React.ReactElement {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          mātau incoming!
+        </p>
+        <p>
+          It&apos;s a React app ;)
         </p>
         <a
           className="App-link"
