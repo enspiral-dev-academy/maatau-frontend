@@ -1,8 +1,8 @@
-# mātau frontend
+# matatau frontend
 
-> mātau
+> matatau
 >
-> 1. (verb) to know, acquainted with, understand ([source](https://maoridictionary.co.nz/search?keywords=mātau))
+> 1. (verb) (-hia,-ria) to know, know well, be proficient, expert at, competent, fluent. ([source](https://maoridictionary.co.nz/search?keywords=matatau))
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
