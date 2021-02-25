@@ -8,7 +8,7 @@ function App(): React.ReactElement {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          mātau incoming!
+          matatau incoming!
         </p>
         <p>
           It&apos;s a React app ;)

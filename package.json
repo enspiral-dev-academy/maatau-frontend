@@ -1,7 +1,7 @@
 {
-  "name": "maatau",
+  "name": "matatau",
   "version": "0.0.1",
-  "description": "maatau",
+  "description": "matatau",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
