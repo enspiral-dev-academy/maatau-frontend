@@ -1,4 +1,6 @@
 import React from "react";
+import { Route, Link } from "react-router-dom";
+
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -10,7 +12,6 @@ function App(): React.ReactElement {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>matatau incoming!</p>
-        <p>It&apos;s a React app ;)</p>
         <SignIn />
       </header>
     </div>

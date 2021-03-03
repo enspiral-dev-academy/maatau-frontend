@@ -27,24 +27,28 @@ function SignIn(): React.ReactElement {
     <div className="SignIn">
       <p>Sign in to Matatau</p>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Username</label>
-        <input
-          id="username"
-          name="username"
-          value={form.username}
-          onChange={handleChange}
-          required
-        />
+        <div>
+          <label htmlFor="username">Username</label>: {` `}
+          <input
+            id="username"
+            name="username"
+            value={form.username}
+            onChange={handleChange}
+            required
+          />
+        </div>
 
-        <label htmlFor="password">Password</label>
-        <input
-          id="password"
-          name="password"
-          value={form.password}
-          onChange={handleChange}
-          type="password"
-          required
-        />
+        <div>
+          <label htmlFor="password">Password</label>: {` `}
+          <input
+            id="password"
+            name="password"
+            value={form.password}
+            onChange={handleChange}
+            type="password"
+            required
+          />
+        </div>
 
         <button>Sign in</button>
       </form>
